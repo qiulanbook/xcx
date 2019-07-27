@@ -1,0 +1,68 @@
+/* component/test.wxss */
+/* .marquee_container {
+  position: relative;  
+  width: 100%;
+}
+
+.marquee_text {
+  position: absolute;
+  white-space: nowrap;
+  top: 0;
+} */
+.example {
+  display: block;
+  width: 100%;
+  height: 100rpx;
+}
+.marquee_box {
+  width: 200rpx;
+  position: relative;
+}
+.marquee_text {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+
+/* 新闻滚动 */
+.new_box{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 10rpx;
+  width: 94%;
+  height: 60rpx;
+  line-height: 50rpx;
+  margin: 20rpx auto 0;
+}
+.new_left{
+  display: flex;
+  flex-direction: row;
+  width: 160rpx;
+  /* width: 24%; */
+  /* align-items: center */
+  line-height: 60rpx;
+}
+.new_left image{
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 14rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.new_left text{
+  color: #c80001;
+  font-size: 30rpx;
+}
+.new_line{
+  background: #c80001;
+  width: 10rpx;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.new_right{
+  width: 76%;
+}
+/* .new_right text{
+  font-size: 28rpx;
+} */

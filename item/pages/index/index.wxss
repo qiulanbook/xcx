@@ -1,0 +1,239 @@
+/* pages/index/index.wxss */
+/* 轮播图 */
+
+.swiper_box{
+  position: relative;
+}
+.swiper_red{
+  background: #c80001;
+  height: 240rpx;
+}
+.swiper_slide{
+  position: absolute;
+  top: 20rpx;
+  width: 94%;
+  left: 50%;
+  margin-left: -47%;
+  border-radius: 20rpx;
+}
+.swiper_slide swiper{
+  height: 440rpx;
+  border-radius: 20rpx;
+}
+.swiper_slide swiper swiper-item{
+  border-radius: 20rpx;
+}
+.swiper_img{
+  width: 100%;
+  border-radius: 20rpx;
+}
+
+/* 成人高考 */
+/* 高起专标题 */
+.exam_box{
+  margin-top: 240rpx;
+}
+.exam_one{
+  background: #fff;
+  /* border-radius: 20rpx; */
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  margin: 0 auto;
+  width: 94%;
+}
+.exam_one_title{
+  position: relative;
+}
+.exam_one_title image{
+  width: 35%;
+  height: 90rpx;
+  margin-top: 20rpx;
+  margin-left: -13rpx;
+}
+.exam_one_title text{
+  position: absolute;
+  left: 20rpx;
+  top: 34rpx;
+  color: #fff;
+}
+
+/* 高起专内容 */
+.exam_content{
+  background: #fff;
+  margin: 0 auto;
+  width: 94%;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+.exam_content_title{
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 20rpx;
+}
+.exam_content_title image{
+  vertical-align: middle;
+  margin: 0 20rpx;
+}
+.exam_content_title text{
+  vertical-align: middle;
+}
+.exam_content_content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 24rpx 0;
+}
+.exam_content_content view{
+    width: 25%;
+    text-align: center;
+}
+.exam_content_content image{
+  width: 90rpx;
+  height: 90rpx;
+  display: block;
+  margin-left: 23%;
+  margin-bottom: 10rpx;
+}
+.exam_content_content text{
+  font-size: 28rpx;
+}
+
+/* 专升本 */
+.exam_content_two{
+  padding-top: 15rpx;
+  margin-top: 20rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.exam_content_two_content view{
+  margin-bottom: 20rpx;
+}
+
+/* 高起本 */
+.exam_content_three{
+  margin-top: 20rpx;
+  padding-top: 15rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+.exam_content_three_content view{
+  margin-bottom: 20rpx;
+}
+
+/* 广告位一 */
+.adv_one{
+  display: flex;
+  flex-direction: row;
+  width: 94%;
+  margin: 28rpx auto 0;
+}
+.adv_one view{
+  width: 50%;
+}
+.adv_one view:first-child{
+  padding-right: 10rpx;
+}
+.adv_one view:last-child{
+  padding-left: 10rpx;
+}
+.adv_one view image{
+  width: 100%;
+  height: 200rpx;
+  border-radius: 20rpx;
+  box-shadow: 4rpx 4rpx 12rpx #7a7b7a;
+}
+
+/* 教师资格证 */
+.teacher_box{
+  margin-top: 20rpx;
+}
+
+/* 新闻滚动 */
+.new_box{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-radius: 10rpx;
+  width: 94%;
+  height: 60rpx;
+  line-height: 50rpx;
+  margin: 20rpx auto 0;
+}
+.new_left{
+  display: flex;
+  flex-direction: row;
+  width: 24%;
+  /* align-items: center */
+  line-height: 60rpx;
+}
+.new_left image{
+  width: 36rpx;
+  height: 36rpx;
+  margin-top: 14rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.new_left text{
+  color: #c80001;
+  font-size: 30rpx;
+}
+.new_line{
+  background: #c80001;
+  width: 10rpx;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.new_right text{
+  overflow: hidden;
+  font-size: 28rpx;
+}
+
+/* 成人高考资讯 */
+.exam_news_box{
+  background: #fff;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  width: 94%;
+  margin: 24rpx auto 0;
+  padding-top: 20rpx;
+}
+.exam_news_title{
+  border-left: 6rpx solid #ffd200;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+}
+.exam_news_conent{
+  margin-top: 20rpx;
+}
+.exam_news_conent view{
+  padding: 20rpx 16rpx;
+  border-top: 1px solid #f2f2f2;
+}
+.exam_news_conent view text{
+  display: block;
+  font-size: 28rpx;
+}
+.exam_news_conent view text:first-child{
+  color: #333;
+}
+.exam_news_conent view text:last-child{
+  color: #bab9b9;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+
+/* 广告位三 */
+.adv_three{
+  width: 94%;
+  margin: 20rpx auto 0;
+  border-radius: 20rpx;
+}
+.adv_three image{
+  width: 100%;
+  height: 260rpx;
+  border-radius: 20rpx;
+  box-shadow: 4rpx 4rpx 12rpx #7a7b7a;
+}
+.mb15{
+  margin-bottom: 30rpx;
+}

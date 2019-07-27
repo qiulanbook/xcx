@@ -1,0 +1,19 @@
+<!--pages/exam_list/exam_list.wxml-->
+<!-- 顶部导航 -->
+<nav_top name='成人高考语文题库'></nav_top>
+
+<!-- 题库列表 -->
+<view class='lists_box'>
+
+
+  <view class='list' wx:for="{{list}}" wx:for-item='item'>
+    <view class='list_left'>
+      <text>成人高考专升本大学语文考试考前模拟卷五成人高考专升本大学语文</text>
+      <text>2019-04-09 15:20:26</text>
+    </view>
+    <view class='list_right' bindtap='go'>
+      <text class='button'>答题</text>
+    </view>
+  </view>
+
+</view>

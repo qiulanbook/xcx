@@ -1,0 +1,7 @@
+<!--component/header/header.wxml-->
+<view class="custom flex_center" style="padding-top:{{statusBarHeight}}px">
+  
+  <image src='/image/logo.png' style='width:46rpx; height:46rpx; margin-right:6px; margin-left:10px;vertical-align:middle; margin-top:-4px;'></image>
+  <text>中亚信达</text>
+</view>
+<view class="empty_custom" style="padding-top:{{statusBarHeight}}px"></view>

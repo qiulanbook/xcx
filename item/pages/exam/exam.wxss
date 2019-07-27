@@ -1,0 +1,168 @@
+/* pages/exam/exam.wxss */
+.nav_box{
+  position: relative;
+  overflow: hidden;
+  height: 960rpx;
+}
+.bg{
+  width: 100%;
+  height: 400rpx;
+}
+.content_title{
+  position: absolute;
+  top: 30rpx;
+  left: 42rpx;
+  width: 88%;
+}
+.content_title text{
+  display: block;
+  color: #fff;
+  background: rgba(209,122,122,.7);
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.content_cat{
+  color: #fff;
+  position: absolute;
+  top: 110rpx;
+  font-size: 28rpx;
+  padding-left: 40rpx;
+}
+.exam{
+  background: #fff;
+  width: 86%;
+  position: absolute;
+  top: 160rpx;
+  left: 20rpx;
+  border-radius: 20rpx;
+  padding: 26rpx 34rpx;
+}
+.exam_title{
+  font-size: 30rpx;
+  margin-top: 16rpx;
+}
+.option{
+  margin-top: 20rpx;
+}
+.option .option_item:last-child{
+  border-bottom: none;
+}
+.option_item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #fafafa;
+  padding: 36rpx 0;
+}
+.option_item view:first-child text{
+  border-radius: 50%;
+  border: 1px solid #666;
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  font-size: 30rpx;
+  text-align: center;
+}
+.option_item view:last-child text{
+  font-size: 28rpx;
+  color: #333;
+  display: block;
+  line-height: 42rpx;
+  padding: 0 24rpx;
+}
+
+/* 答案解析 */
+.analyze_box{
+  background: #fff;
+  width: 94%;
+  margin: 0 auto 110rpx;
+  border-radius: 20rpx;
+  /* margin-top: 560rpx; */
+}
+.exam_one{
+  background: #fff;
+  /* border-radius: 20rpx; */
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  margin: 0 auto;
+  width: 94%;
+}
+.exam_one_title{
+  position: relative;
+}
+.exam_one_title image{
+  width: 35%;
+  height: 90rpx;
+  margin-top: 20rpx;
+  margin-left: -26rpx;
+}
+.exam_one_title text{
+  position: absolute;
+  left: 0;
+  top: 36rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+
+.exam_content{
+  background: #fff;
+  margin: 0 auto;
+  width: 94%;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+.exam_content_title{
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 20rpx;
+}
+.exam_content_title image{
+  vertical-align: middle;
+  margin: 0 20rpx;
+}
+.exam_content_title text{
+  vertical-align: middle;
+}
+.exam_content_content{
+  padding: 16rpx;
+  font-size: 28rpx;
+}
+.exam_content_content image{
+  width: 90rpx;
+  height: 90rpx;
+  display: block;
+  margin-left: 23%;
+  margin-bottom: 10rpx;
+}
+
+/* 底部导航 */
+.footer_nav{
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+.footer_nav view{
+  width: 33%;
+  text-align: center;
+}
+.first text{
+  border: 1px solid #eee;
+  border-radius: 10rpx;
+  padding: 10rpx 26rpx;
+  color: #333;
+}
+.last text{
+  background: #c80001;
+  color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx 26rpx;
+}

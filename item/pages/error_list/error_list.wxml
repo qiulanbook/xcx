@@ -1,0 +1,21 @@
+<!--pages/error_list/error_list.wxml-->
+<!-- 顶部导航 -->
+<nav_top name='错题列表' type='errorList'></nav_top>
+
+<!-- 动态列表 -->
+<view class='list_box'>
+  <view class='lists'>
+    
+    <!-- 文章内容 -->
+    <view class='list_content' wx:for="{{list}}" wx:for-item="item">
+      <view class='content_left'>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,288 @@
+<!--pages/index/index.wxml-->
+<!-- 自定义顶部导航 -->
+<header></header>
+
+<!-- 轮播图 -->
+<view class='swiper_box'>
+  <!-- 轮播图红色背景 -->
+  <view class='swiper_red'></view>
+  <!-- 轮播图 -->
+  <view class='swiper_slide'>
+    <swiper
+      autoplay='true'
+      indicator-dots='true'
+      interval='2000'
+      circular='true'
+    >
+      <swiper-item>
+        <image src='/image/banner.jpg' class='swiper_img'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/image/banner.jpg' class='swiper_img'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/image/banner.jpg' class='swiper_img'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  
+</view>
+
+<!-- 成人高考 -->
+<view class='exam_box'>
+  <!-- 高起专标题 -->
+  <view class='exam_one'>
+    <view class='exam_one_title'>
+      <image src='/image/index_03.png'></image>
+      <text>成人高考</text>
+    </view>
+  </view>
+
+  <!-- 高起专内容 -->
+  <view class='exam_content'>
+    <!-- 高起专内容标题 -->
+    <view class='exam_content_title'>
+      <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+      <text style='font-size:32rpx;'>高起专</text>
+    </view>
+    <!-- 高起专内容 -->
+    <view class='exam_content_content'>
+      <view bindtap='go'>
+        <image src='/image/item_01.png'></image>
+        <text>数学(理工)</text>
+      </view>
+      <view>
+        <image src='/image/item_02.png'></image>
+        <text>数学(文史)</text>
+      </view>
+      <view>
+        <image src='/image/item_03.png'></image>
+        <text>语文</text>
+      </view>
+      <view>
+        <image src='/image/item_04.png'></image>
+        <text>外语</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 专升本 -->
+  <view class='exam_content exam_content_two'>
+    <!-- 专升本标题 -->
+    <view class='exam_content_title'>
+      <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+      <text style='font-size:32rpx;'>专升本</text>
+    </view>
+    <!-- 专升本内容 -->
+    <view class='exam_content_content exam_content_two_content'>
+      <view>
+        <image src='/image/item_05.png'></image>
+        <text>高等数学(一)</text>
+      </view>
+      <view>
+        <image src='/image/item_06.png'></image>
+        <text>高等数学(二)</text>
+      </view>
+      <view>
+        <image src='/image/item_07.png'></image>
+        <text>政治</text>
+      </view>
+      <view>
+        <image src='/image/item_04.png'></image>
+        <text>外语</text>
+      </view>
+      <view>
+        <image src='/image/item_08.png'></image>
+        <text>民法</text>
+      </view>
+      <view>
+        <image src='/image/item_09.png'></image>
+        <text>医学综合</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 高起本 -->
+  <view class='exam_content exam_content_three'>
+    <!-- 高起本标题 -->
+    <view class='exam_content_title'>
+      <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+      <text style='font-size:32rpx;'>高起本</text>
+    </view>
+    <!-- 高起本内容 -->
+    <view class='exam_content_content exam_content_three_content'>
+      <view>
+        <image src='/image/item_01.png'></image>
+        <text>数学(理工)</text>
+      </view>
+      <view>
+        <image src='/image/item_02.png'></image>
+        <text>数学(文史)</text>
+      </view>
+      <view>
+        <image src='/image/item_03.png'></image>
+        <text>语文</text>
+      </view>
+      <view>
+        <image src='/image/item_04.png'></image>
+        <text>外语</text>
+      </view>
+      <view>
+        <image src='/image/item_10.png'></image>
+        <text>理化综合</text>
+      </view>
+      <view>
+        <image src='/image/item_11.png'></image>
+        <text>史地综合</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 广告图一 -->
+<view class='adv_one'>
+  <view>
+    <image src='/image/adv.jpg'></image>
+  </view>
+  <view>
+    <image src='/image/adv.jpg'></image>
+  </view>
+</view>
+
+<!-- 教师资格证 -->
+<view class='teacher_box'>
+  <!-- 教师资格证标题 -->
+  <view class='exam_one'>
+    <view class='exam_one_title'>
+      <image src='/image/index_03.png'></image>
+      <text>教师资格证</text>
+    </view>
+  </view>
+
+  <!-- 幼儿教师内容 -->
+  <view class='exam_content'>
+    <!-- 幼儿教师内容标题 -->
+    <view class='exam_content_title'>
+      <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+      <text style='font-size:32rpx;'>幼儿教师</text>
+    </view>
+    <!-- 幼儿教师内容 -->
+    <view class='exam_content_content'>
+      <view>
+        <image src='/image/item_12.png'></image>
+        <text>综合素质</text>
+      </view>
+      <view>
+        <image src='/image/item_13.png'></image>
+        <text>保教知识</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 小学教师 -->
+  <view class='exam_content exam_content_two'>
+    <!-- 小学教师标题 -->
+    <view class='exam_content_title'>
+      <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+      <text style='font-size:32rpx;'>小学教师</text>
+    </view>
+    <!-- 小学教师内容 -->
+    <view class='exam_content_content exam_content_two_content'>
+      <view>
+        <image src='/image/item_14.png'></image>
+        <text>综合素质</text>
+      </view>
+      <view>
+        <image src='/image/item_15.png'></image>
+        <text>教育教学知识</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 中学/中职 -->
+  <view class='exam_content exam_content_three'>
+    <!-- 中学/中职标题 -->
+    <view class='exam_content_title'>
+      <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+      <text style='font-size:32rpx;'>中学/中职</text>
+    </view>
+    <!-- 中学/中职内容 -->
+    <view class='exam_content_content exam_content_three_content'>
+      <view>
+        <image src='/image/item_16.png'></image>
+        <text>综合素质</text>
+      </view>
+      <view>
+        <image src='/image/item_17.png'></image>
+        <text>教育知识</text>
+      </view>
+      <view>
+        <image src='/image/item_18.png'></image>
+        <text>学科</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<!-- 广告图二 -->
+<view class='adv_one'>
+  <view>
+    <image src='/image/adv.jpg'></image>
+  </view>
+  <view>
+    <image src='/image/adv.jpg'></image>
+  </view>
+</view>
+
+<!-- 动态滚动 -->
+<loopText title='动态' img='/image/icon_01.jpg' text='动态啊动态啊动态啊动态啊动态啊动态啊动态啊动态啊动态啊动态啊啊'></loopText>
+
+<!-- 新闻滚动 -->
+<loopText title='新闻' img='/image/icon_01.jpg' text='我啊我啊我啊我啊我啊我啊我啊我啊我'></loopText>
+
+
+<!-- 成人高考资讯 -->
+<view class='exam_news_box'>
+  <!-- 成人高考资讯标题 -->
+  <view class='exam_news_title'>
+    <text>成人高考</text>
+  </view>
+  <!-- 成人高考资讯内容 -->
+  <view class='exam_news_conent'>
+    <view bindtap='onLink' wx:for="{{articleList}}">
+      <text>成人高考已通过，好就业，国家承认学历！成人高考河北有30+所院校，90+专业可选择，可选择</text>
+      <text>2019-04-09</text>
+    </view>
+
+  </view>
+</view>
+
+<!-- 广告图三 -->
+<view class='adv_three'>
+  <image src='/image/adv.jpg'></image>
+</view>
+
+<!-- 教师资格证资讯 -->
+<!-- 动态滚动 -->
+<loopText title='动态' img='/image/icon_01.jpg' text='动态啊动态啊动态啊动态啊动态啊动态啊动态啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊'></loopText>
+
+<!-- 新闻滚动 -->
+<loopText title='新闻' img='/image/icon_01.jpg' text='我啊我啊我啊我啊我啊我啊我啊我啊我'></loopText>
+
+<!-- 教师资格证资讯 -->
+<view class='exam_news_box mb15'>
+  <!-- 教师资格证资讯标题 -->
+  <view class='exam_news_title'>
+    <text>教师资格证</text>
+  </view>
+  <!-- 教师资格证资讯内容 -->
+  <view class='exam_news_conent'>
+    <view bindtap='onLink' wx:for="{{articleList}}">
+      <text>成人高考已通过，好就业，国家承认学历！成人高考河北有30+所院校，90+专业可选择，可选择</text>
+      <text>2019-04-09</text>
+    </view>
+  
+  </view>
+</view>

@@ -1,0 +1,142 @@
+<!--pages/article/article.wxml-->
+<!-- 顶部导航 -->
+<nav_top name='动态' ></nav_top>
+
+<!-- 输入框 -->
+<view class='search'>
+  <input type='text' placeholder='请输入您想查询的内容' placeholder-class="placeholder" confirm-type='search' />
+</view>
+
+<!-- 文章列表 -->
+<view class='list_box'>
+  <view class='lists'>
+    <!-- 文章标题 -->
+    <view class='list_title'>
+      <view class='title_left'>
+        <image src='/image/start_03.png'></image>
+        <text>成人高考</text>
+      </view>
+      <view class='title_right' bindtap='moreGo'>
+        <view class='right_more'>更多>></view>
+      </view>
+    </view>
+    <!-- 文章内容 -->
+    <view class='list_content' bindtap='go'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+  </view>
+
+  <!-- 教师资格证 -->
+  <view class='lists'>
+    <!-- 文章标题 -->
+    <view class='list_title'>
+      <view class='title_left'>
+        <image src='/image/start_03.png'></image>
+        <text>教师资格证</text>
+      </view>
+      <view class='title_right'>
+        <view class='right_more'>更多>></view>
+      </view>
+    </view>
+    <!-- 文章内容 -->
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+    <view class='list_content'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>
+

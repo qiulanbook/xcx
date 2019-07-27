@@ -1,0 +1,55 @@
+/* pages/error_list/error_list.wxss */
+.list_box{
+  width: 94%;
+  margin: 20rpx auto 0;
+}
+/* 文章列表 */
+.lists{
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.list_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 28rpx 20rpx 20rpx;
+  font-size: 28rpx;
+}
+.title_left image{
+  width: 38rpx;
+  height: 36rpx;
+  vertical-align: middle;
+  padding-right: 14rpx;
+}
+.title_left text{
+  vertical-align: middle;
+}
+.right_more{
+  background: #eee;
+  border-radius: 40rpx;
+  border: 1px solid #c9c9c9;
+  color: #5b5757;
+  font-size: 24rpx;
+  padding: 6rpx 10rpx;
+}
+
+/* 动态列表内容 */
+.list_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30rpx 0;
+  border-top: 1px solid #f8f8f8;
+  margin: 0 16rpx;
+}
+.content_left{
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+}
+.content_right{
+  font-size: 24rpx;
+  color: #cfcdcd;
+  padding-top: 6rpx;
+}

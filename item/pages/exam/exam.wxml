@@ -1,0 +1,80 @@
+<!--pages/exam/exam.wxml-->
+<!-- 顶部导航 -->
+<nav_red name='考题' type="exam"></nav_red>
+
+<!-- 内容 -->
+<view class='nav_box'>
+  <image src='/image/exam_bg.jpg' class='bg'></image>
+  <!-- 考题标题 -->
+  <view class='content_title'>
+    <text>成人高考专升本大学语文考试考前模拟卷五</text>
+  </view>
+  <view class='content_cat'>单选题</view>
+  <!-- 题 -->
+  <view class='exam'>
+    <!-- 题目 -->
+    <view class='exam_title'>
+      <text>成人高考专升本大学语文考试考前模拟卷五成人高考专升本大学语文</text>
+    </view>
+
+    <!-- 选项 -->
+    <view class='option'>
+
+      <view class='option_item' wx:for="{{list}}" wx:for-item="item">
+        <view>
+          <text>A</text>
+        </view>
+        <view>
+          <text>单选题单选题单选题单选题单选题单选题单选题单选题单选题单选题单选题单选</text>
+        </view>
+      </view>
+    </view>
+    <!--  -->
+
+  </view>
+  <!--  -->
+
+</view>
+
+<!-- 解析 -->
+  <view class='analyze_box'>
+    <!-- 解析标题 -->
+    <view class='exam_one'>
+      <view class='exam_one_title'>
+        <image src='/image/index_03.png'></image>
+        <text>正确答案：C</text>
+      </view>
+    </view>
+
+    <!--  -->
+    <view class='exam_content'>
+      <!-- 解析内容标题 -->
+      <view class='exam_content_title'>
+        <image src='/image/start_03.png' style='width:40rpx; height:38rpx;'></image>
+        <text style='font-size:32rpx;'>解析</text>
+      </view>
+      <!-- 解析 -->
+      <view class='exam_content_content'>
+        
+          解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析解析
+        
+      </view>
+
+    </view>
+
+  </view>
+
+  <!-- 底部导航 -->
+  <view class='footer_nav'>
+    <view class='first'>
+      <text>上一题</text>
+    </view>
+    <view class='middle'>
+      <text>1</text>
+      <text>/</text>
+      <text>10</text>
+    </view>
+    <view class='last'>
+      <text>下一题</text>
+    </view>
+  </view>

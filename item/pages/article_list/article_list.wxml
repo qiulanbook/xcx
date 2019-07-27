@@ -1,0 +1,22 @@
+<!--pages/article_list/article_list.wxml-->
+<!-- 顶部导航 -->
+<nav_top name='动态列表' type='articleList'></nav_top>
+
+<!-- 动态列表 -->
+<view class='list_box'>
+  <view class='lists'>
+    
+    <!-- 文章内容 -->
+    <view class='list_content' wx:for="{{list}}" wx:for-item="item" bindtap='go'>
+      <view class='content_left'>
+        <text></text>
+        <text>成人高考专升本大学语文考试考前模拟卷五</text>
+      </view>
+      <view class='content_right'>
+        <text>2019-04-15</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>

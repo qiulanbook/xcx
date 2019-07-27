@@ -1,0 +1,23 @@
+/* component/nav/nav.wxss */
+.custom{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #fff;
+  z-index: 999;
+  font-size: 28rpx;
+}
+.custom text{
+  color: #000;
+  font-size: 34rpx;
+  font-weight: 500;
+  max-width: 280rpx;
+  padding-left: 40rpx;
+}
+.empty_custom{
+  height: 90rpx;
+  width: 100%;
+}

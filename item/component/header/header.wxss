@@ -1,0 +1,21 @@
+/* component/header/header.wxss */
+.custom{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 90rpx;
+  line-height: 90rpx;
+  background: #c80001;
+  z-index: 999;
+}
+.custom text{
+  color: #fff;
+  font-size: 34rpx;
+  font-weight: 500;
+  max-width: 280rpx;
+}
+.empty_custom{
+  height: 90rpx;
+  width: 100%;
+}

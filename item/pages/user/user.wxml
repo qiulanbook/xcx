@@ -1,0 +1,33 @@
+<!--pages/user/user.wxml-->
+<!-- 顶部导航 -->
+<header></header>
+
+<!-- 顶部部分 -->
+<view class='top_box'>
+  <image src='/image/user_bg.jpg' class='top_bg'></image>
+  <view class='top_info'>
+    <!-- 头像 -->
+    <view class='info_head'>
+      <image src='/image/head.jpg'></image>
+    </view>
+    <!-- 昵称 -->
+    <view class='info_text'>
+      <text>L</text>
+      <text>为梦想加油！</text>
+    </view>
+  </view>
+</view>
+
+<!-- 内容部分 -->
+<view class='content'>
+  <!-- 错题记录 -->
+  <view class='error' bindtap='go'>
+    <view class='left'>
+      <image src='/image/record.png'></image>
+      <text>错题记录</text>
+    </view>
+    <view class='right'>
+      <image src='/image/right.png'></image>
+    </view>
+  </view>
+</view>

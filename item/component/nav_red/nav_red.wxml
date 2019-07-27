@@ -1,0 +1,7 @@
+<!--component/nav/nav.wxml-->
+<view class="custom flex_center" style="padding-top:{{statusBarHeight}}px">
+  
+  <image src='/image/back_white.png' style='width:36rpx; height:36rpx; margin-right:6px; margin-left:10px;vertical-align:middle; margin-top:-4px;' bindtap='go'></image>
+  <text>{{name}}</text>
+</view>
+<view class="empty_custom" style="padding-top:{{statusBarHeight}}px"></view>

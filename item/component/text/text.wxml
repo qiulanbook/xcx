@@ -1,0 +1,39 @@
+<!--component/test.wxml-->
+
+<!-- <view class='marquee_container'>
+  <view class='marquee_text' style='{{ orientation }}:{{ marqueeDistance }}px;font-size: {{size}}px;'>
+    {{ text }}
+  </view>
+</view> -->
+
+<!-- <view class="example" style='width:64%;overflow:hidden; margin-left:100rpx;'>
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance2}}px;font-size: {{size}}px;right:50rpx;">
+      <text>{{text}}</text>
+      <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+    </view>
+  </view>
+</view> -->
+
+
+<view class='new_box'>
+  <view class='new_left'>
+    <view class='new_line'> </view>
+    <image src='{{img}}'></image>
+    <text>{{title}}：</text>
+  </view>
+  <view class='new_right'>
+    
+      <view class="example" style='width:100%; overflow:hidden; margin-right:20rpx; margin-top:6rpx;'>
+        <view class="marquee_box">
+          <view class="marquee_text" style="{{orientation}}:{{marqueeDistance2}}px;font-size: {{size * 2}}rpx;">
+            <text>{{text}}</text>
+            <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+          </view>
+        </view>
+      </view>
+
+
+
+  </view>
+</view>

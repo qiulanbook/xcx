@@ -1,0 +1,40 @@
+/* pages/exam_list/exam_list.wxss */
+.lists_box{
+  width: 94%;
+  margin: 30rpx auto;
+  background: #fff;
+  border-radius: 20rpx;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 28rpx;
+  padding: 30rpx 0;
+  margin: 0 16rpx;
+  border-bottom: 1px solid #f8f8f8;
+}
+.list_left{
+  width: 80%;
+}
+.list_right{
+  width: 20%;
+  text-align: right;
+}
+.list_left text{
+  display: block;
+}
+.list_left text:first-child{
+  color: #333;
+}
+.list_left text:last-child{
+  color: #cfcdcd;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.button{
+  background: #c80001;
+  color: #fff;
+  padding: 10rpx 24rpx;
+  border-radius: 28rpx;
+}

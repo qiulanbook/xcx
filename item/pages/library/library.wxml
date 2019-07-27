@@ -1,0 +1,57 @@
+<!--pages/library/library.wxml-->
+<!-- 顶部导航 -->
+<nav_top name='文库'></nav_top>
+
+<!-- 弹窗内容 -->
+<view class='prop' wx:if="{{show}}" style="height:{{height +'px'}}">
+  <view class='prop_box'>
+    <!-- 弹窗标题 -->
+    <view class='prop_title'>
+        输入手机号获取资料
+    </view>
+    <!-- 弹窗内容 -->
+    <view class='prop_content'>
+      <input type='text' placeholder='请输入手机号' placeholder-style='color:#cdcbcb;' class='phone' />
+      <view class='qrcode'>
+        <input type='text' placeholder='短信验证码' placeholder-style='color:#cdcbcb;'/>
+        <text>获取验证码</text>
+      </view>
+      <view class='message'>
+        验证码已发送到<text>18788888888</text>
+      </view>
+      <view class='prop_bottom'>
+        <text>确认</text>
+        <text bindtap='cancel'>取消</text>
+      </view>
+      
+    </view>
+  </view>
+</view>
+
+<!-- 搜索框 -->
+<view class='search'>
+  <input type='text' placeholder='请输入您想查询的内容' placeholder-class="placeholder" confirm-type='search' />
+</view>
+
+<!-- 文库列表 -->
+<view class='lists_box'>
+  <!-- 文库列表 -->
+  <view class='list' wx:for="{{list}}" wx:for-item='item'>
+    <view class='flex_box'>
+      <view class='list_left'>
+        <image src='/image/pdf.png'></image>
+      </view>
+      <view class='list_middle'>
+        <text>成人高考专升本大学语文考试考前模拟卷五成人高考专升本大学语文</text>
+        <view class='list_middle_content'>
+          <image src='/image/download.png'></image>
+          <text>159次</text>
+        </view>
+      </view>
+    </view>
+    
+    <view class='list_right'>
+      <text bindtap='down'>下载</text>
+    </view>
+  </view>
+</view>

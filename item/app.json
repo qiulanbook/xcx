@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/indexs/index",
+    "pages/article_list/article_list",
+    "pages/exam/exam",
+    "pages/search_list/search_list",
+    "pages/article_detail/article_detail",
+    "pages/library/library",
+    "pages/article/article",
+    "pages/exam_list/exam_list",
+    "pages/user/user",
+    "pages/error_list/error_list",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中亚信达",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#969595",
+    "selectedColor": "#c80001",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index_sel.png"
+      },
+      {
+        "pagePath": "pages/exam_list/exam_list",
+        "text": "题库",
+        "iconPath": "image/exam.png",
+        "selectedIconPath": "image/exam_sel.png"
+      },
+      {
+        "pagePath": "pages/library/library",
+        "text": "文库",
+        "iconPath": "image/library.png",
+        "selectedIconPath": "image/library_sel.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "动态",
+        "iconPath": "image/article.png",
+        "selectedIconPath": "image/article_sel.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_sel.png"
+      }
+    ]
+  }
+}
